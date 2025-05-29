@@ -1,0 +1,29 @@
+
+minyear = 0
+maxyear = 0
+
+minrating = 0
+maxrating = 0
+
+minratingLetterboxd = 0
+maxratingLetterboxd = 0
+
+minpopularity = 0
+maxpopularity = 0
+
+minwatches = 0
+maxwatches = 0
+
+genre = any
+
+number = 1
+
+director = none
+actor = none
+
+liked = 0
+
+allnew = 1
+newgenres = 0
+newratingsLetterboxd = 0
+newactors = 0
