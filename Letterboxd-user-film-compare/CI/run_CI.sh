@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Running all CI files:
+
+python CI/user_film_compare_CI_setup_user_user_1.py
+python CI/user_film_compare_CI_setup_user_user_2.py
+python CI/user_film_compare_CI_setup_user_user_3.py
+
+python CI/user_film_compare_CI_setup_user_following_1.py
+python CI/user_film_compare_CI_setup_user_following_2.py
+python CI/user_film_compare_CI_setup_user_following_3.py
+
+python CI/user_film_compare_CI_setup_user_followers_1.py
+python CI/user_film_compare_CI_setup_user_followers_2.py
+python CI/user_film_compare_CI_setup_user_followers_3.py
+
+python CI/user_film_compare_CI_user_user_1.py
+python CI/user_film_compare_CI_user_user_2.py
+python CI/user_film_compare_CI_user_user_3.py
+
+python CI/user_film_compare_CI_user_following_1.py
+python CI/user_film_compare_CI_user_following_2.py
+python CI/user_film_compare_CI_user_following_3.py
+
+python CI/user_film_compare_CI_user_followers_1.py
+python CI/user_film_compare_CI_user_followers_2.py
+python CI/user_film_compare_CI_user_followers_3.py
+
+# Checking results:
+python CI/user_film_compare_results_check.py
